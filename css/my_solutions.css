@@ -53,3 +53,39 @@
 {
         transform:scale(0.2);
 }
+
+.ex-6-img
+{
+        transition: 5s;
+}
+
+.ex-6-img:hover
+{
+        filter:grayscale(100%)
+
+}
+
+.ex-8-img
+{
+        transition: all 3s;
+}
+
+.ex-8-img:hover
+{
+        filter:grayscale(1) blur(2px);
+        border-radius: 10px;
+
+}
+
+.ex-9-img
+{
+        transition: all 1.5s;
+}
+
+.ex-9-img:hover
+{
+        filter:contrast(50%) blur(2px);
+        border-radius: 10px;
+        transform: scale(0.3);
+
+}
