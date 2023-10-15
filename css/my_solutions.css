@@ -1,0 +1,55 @@
+.ex-1-square
+{
+        transition: all 2s;
+}
+
+.ex-1-square:hover
+{
+        background: red;
+/*        border: 5px solid yellow; */
+}
+
+.ex-2-square 
+{
+        transition: 2s
+}
+
+.ex-2-square:active
+{
+        width: 100%;
+}
+
+.ex-3-square 
+{
+        transition: 2s;
+}
+
+.ex-3-square:hover 
+{
+        border-radius: 100%;
+}
+
+.ex-4-square 
+{
+        transition: 3s;
+}
+
+.ex-4-square:hover 
+{
+        opacity: 0;
+}
+
+.ex-5-square
+{
+        transition: 2s;
+} 
+
+.ex-5-square:hover
+{
+        transform:scale(1.5);
+}
+
+.ex-5-square:active
+{
+        transform:scale(0.2);
+}
